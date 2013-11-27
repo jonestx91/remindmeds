@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_blueglow">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvMedicine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Medicine Name"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        />
+    
+
+    <EditText
+        android:id="@+id/etMedicine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" >
+<requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvNickname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Nickname"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <EditText
+        android:id="@+id/etNickname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" >
+
+    </EditText>
+    
+    <TextView
+        android:id="@+id/tvDoctor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <EditText
+        android:id="@+id/etDoctor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" >
+
+    </EditText>
+    
+    <TextView
+        android:id="@+id/tvDosage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Dosage"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <EditText
+        android:id="@+id/etDosage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" >
+
+    </EditText>
+    
+    <TextView
+        android:id="@+id/tvPillCount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pill Count"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <EditText
+        android:id="@+id/etPillCount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" >
+
+    </EditText>
+    
+    <TextView
+        android:id="@+id/tvLowAmount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Running Low Count"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <EditText
+        android:id="@+id/etLowAmount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" >
+
+    </EditText>
+    
+
+    <Button
+        android:id="@+id/bTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Dose Time" />
+
+    <Button
+        android:id="@+id/bRefillDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Refill Date" />
+
+    <Button
+        android:id="@+id/bSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>
+</ScrollView>

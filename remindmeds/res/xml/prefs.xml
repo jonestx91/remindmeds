@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background_blueglow" >
+    
+    <EditTextPreference 
+        android:title="UserName"
+        android:key="username"
+        android:summary="Enter your name"/>
+        
+	<EditTextPreference 
+	    android:title="CareTakerName"
+	    android:key="caretakername"
+	    android:summary="Enter the name of your caretaker"/>
+	
+	<EditTextPreference 
+	    android:title="CareTakerNumber"
+	    android:key="number"
+	    android:summary="Enter the number of your Caretaker"
+	    android:inputType="phone"/>
+</PreferenceScreen>

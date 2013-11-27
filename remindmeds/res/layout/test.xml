@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_blueglow">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            
+            <TextView
+      			android:id="@+id/tvMedicine"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:text="Medicine Name"
+        		android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <TextView
+        		android:id="@+id/tvPill"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:text="Pill Count"
+        		android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+        		android:id="@+id/tvDate"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:text="Date"
+        		android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+        
+        <Button 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="-"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            
+            <TextView
+      			android:id="@+id/tvMedicine"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:text="Medicine Name"
+        		android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <TextView
+        		android:id="@+id/tvPill"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:text="Pill Count"
+        		android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+        		android:id="@+id/tvDate"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:text="Date"
+        		android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+        
+        <Button 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="-"/>
+        
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
